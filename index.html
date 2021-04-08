@@ -8,6 +8,7 @@
 <link rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap">
 <link rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Gamja+Flower&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://lmcdwriting.org/userfiles/lmc201708/hint.css-2.5.0/hint.css">
 <style>
     /* html,body,h1,h3,h4,h5,h6 {font-family: "Roboto", sans-serif} */
     html,body,h1,h3,h4,h5,h6 {font-family: "Gamja Flower", cursive; font-size: 20px;}
@@ -16,20 +17,38 @@
     a:visited{color:rgb(60, 60, 60);}
     .image1{
       float : right;
-      margin-right : 35px;
-      margin-top : 10px;
+      margin-right : 10px;
+      margin-top : 0px;
       width : 160px;
       height :105px;
       opacity: 0.65;
     }
+    .image1:hover{
+      float : right;
+      margin-right : 10px;
+      margin-top : 0px;
+      width : 160px;
+      height :105px;
+      opacity: 0.8;
+    }
     .image2{
       float : right;
-      margin-right : 50px;
+      margin-right : 10px;
       margin-top : 0px;
       width : 160px;
       height :165px;
       opacity: 0.85;
     }
+    .image2:hover{
+      float : right;
+      margin-right : 10px;
+      margin-top : 0px;
+      width : 160px;
+      height :165px;
+      opacity: 1;
+    }
+
+    
 </style>
 <body class="w3-light-grey">
 
@@ -107,8 +126,10 @@
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2020 - Feb 2021</h6>
           <p>Established in the Biomedical Science Park in 2018, IVD R.E.D. is a pioneer developer and manufacturer of fully-integrated microfluidic chips (lab-on-a-chip systems) in Taiwan.<br>
              I have worked in IVD R.E.D as an intern for over half year. Our team is dedicated to developing the high operational reliability of medical requirements.
-             <img class="image1" src="image/ivd.png"; alt="ivd_reader"><br>
-             I implemented the software and hardware by using FPGA and ARM system to design a reader for medical device.</p>
+             <span aria-label="This reader can show the analysis result with different input signal." class="hint--bottom hint--info hint--large hint--rounded image1">
+               <img class="image1" src="image/ivd.png"; alt="ivd_reader"></span><br>
+             I implemented the software and hardware by using FPGA and ARM system to design a reader for medical device.
+          </p>
           <hr>
         </div>
         <div class="w3-container">
@@ -119,7 +140,9 @@
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>TutorJr Programming Consultant / <a href=https://programming.tutorjr.com target="_blank">programming.tutorjr.com</a></b></h5>
-          <img class="image2" src="image/scratch.png"; alt="scratch"> 
+          <span aria-label="With these blocks, students can create their own game projects!" class="hint--top hint--info hint--large hint--rounded image2">
+            <img class="image2" src="image/scratch.png"; alt="scratch">
+          </span>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2020 - Sep 2021</h6>
           <p>activate students' imagination and guide them in using Scratch2.0 to complete game projects.</p>
         </div>
